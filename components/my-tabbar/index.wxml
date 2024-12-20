@@ -1,0 +1,15 @@
+<view
+  class="my-tabbar class {{safebottom ? 'my-tabbar--safe' :''}} {{fixed ? 'my-tabbar--fixed':''}}"
+>
+  <view
+    wx:for="{{list}}"
+    wx:key="index"
+    data-index="{{index}}"
+    bindtap="tabChange"
+    class="my-tabbar__item {{index === active ? 't-bar__item_on' : ''}}"
+  >
+    <t-icon class="my-tabbar__icon" name="{{item.icon}}" size="40rpx" />
+
+    <view id="t{{index}}_title" aria-hidden="true" class="my-tabbar__label">{{item.text}}</view>
+  </view>
+</view>

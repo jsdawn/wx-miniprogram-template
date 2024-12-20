@@ -1,0 +1,21 @@
+/* components/my-icon/index.wxss */
+.my-icon--image {
+  width: 100%;
+  height: 100%;
+}
+.my-icon__image {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+.my-icon-base {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

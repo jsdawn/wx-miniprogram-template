@@ -1,0 +1,6 @@
+<my-tabbar
+  safebottom
+  active="{{active}}"
+  list="{{list}}"
+  bindchange="onChange"
+></my-tabbar>

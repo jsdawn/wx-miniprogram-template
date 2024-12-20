@@ -1,0 +1,20 @@
+{
+  "name": "weixin",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "miniprogram-computed": "^6.0.2",
+    "mobx-miniprogram": "^6.12.3",
+    "mobx-miniprogram-bindings": "^5.0.0",
+    "tdesign-miniprogram": "^1.8.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}

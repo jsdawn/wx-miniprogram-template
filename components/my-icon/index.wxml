@@ -1,0 +1,15 @@
+<!--components/my-icon/index.wxml-->
+<view
+  class="my-icon class {{ prefix ? prefix : ''}}"
+  style="{{style}}"
+  bind:tap=""
+>
+  <view wx:if="{{ isImage }}" class="my-icon--image">
+    <image src="{{ name }}" mode="aspectFit" class="my-icon__image" />
+  </view>
+  <label
+    wx:else
+    class="{{ prefix ? prefix : 'my-icon' }}-{{name}} my-icon-base"
+    style="font-size: {{size}};"
+  ></label>
+</view>
