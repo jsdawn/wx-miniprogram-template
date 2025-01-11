@@ -1,1 +1,3 @@
-<view class="wx-page">首页</view>
+<view class="wx-page">
+  <text class="font-semibold">首页</text>
+</view>
